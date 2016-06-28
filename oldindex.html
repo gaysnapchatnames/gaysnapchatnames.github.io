@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<title> Snapchat Names </title>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    
+    </script>
+    
+</head>
+
+<body>
+    <!--    Disclaimer for legal reasons?? -->
+    <div id="disclaimer"> Disclaimer: This site is meant to be used by 18+ (or whatever age is deemed 'legal' in your country or state) ONLY. Please leave if you do not meet these standards.  </div>
+    
+<!--    <form class="newPostBox" action="action_page.php" method="post">-->
+    <form class="newPostBox" method="post">
+            <input type="text" id="usernameBox" name="user" placeholder="Username">
+            <input type="text" id="messageBox" name="comment" placeholder="Enter your message">
+            <input type="submit" id="submitButton" value="Submit">
+    
+    </form>
+    
+<!--
+    <div class="newPostBox">
+        <input type="text" id="usernameBox" placeholder="Username">
+        <input type="text" id="messageBox" placeholder="Enter your message">
+        <button type="button" id="submitButton" title="Submit">Submit</button>
+    </div>
+-->
+
+    <!--Begin Post Stream-->
+    <div class="postStream">
+        <table class="postsTable" style="width:100%">
+            <tbody>
+                <tr id="postBox">
+                    <td id="userInfo">Username</td>
+                    <td id="postContent">
+                        <div id="timeCounter">Submitted X minutes ago</div>
+                        <div id="postMessage">This is a test!</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!--  End Post Stream -->
+
+</body>
+
+
+</html>
+
