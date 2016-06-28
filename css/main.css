@@ -1,0 +1,86 @@
+/*.class or #id*/
+.newPostBox {
+
+    margin: 0 auto;
+    display: table;
+    padding: 40px;
+}
+
+.postStream {
+
+  
+}
+
+#disclaimer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+border-width: thin;
+}
+
+.postsTable {
+    /* display: table; */
+    /* border-left-width: thin; */
+    border-width:thin;
+    /* border-style: solid; */
+    border-color: black;
+}
+
+#postContent {
+    border-width: thin;
+    border-left-style: solid;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#userInfo {
+    text-align: center;
+    margin: inherit;
+    background-color: #eee;
+    padding: 6px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+#timeCounter {
+    padding-left: 80%;
+    font-size: 12px;
+}
+
+#postMessage {
+        height:140px;
+    padding-left: 10px;
+}
+
+#postBox {
+}
+
+#usernameBox {
+    display: -webkit-box;
+    height: 25px;
+    width: 500px;
+    margin-bottom: 10px;
+
+
+   
+}
+
+#messageBox {
+    display: -webkit-box;
+    height: 150px;
+    width: 500px;
+    margin-bottom: 10px;
+
+   
+}
+
+#submitButton {
+    /* display: -webkit-box; */
+}
+
+
